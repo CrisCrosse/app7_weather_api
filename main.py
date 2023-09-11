@@ -18,5 +18,6 @@ def about(station, date):
             "temperature": temperature}
 
 
+# if the file is directly load the app
 if __name__ == "__main__":
     app.run(debug=True, port=5001)
